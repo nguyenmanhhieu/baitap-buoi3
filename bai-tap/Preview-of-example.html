@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Preview of example</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Your Detail:</legend>
+        <label>Name:</label>
+        <input type="text" name="text"/>
+        <br>
+        <label>Email:</label>
+        <input type="email" name="email">
+    </fieldset>
+    <br>
+    <fieldset   >
+        <legend>Your Review:</legend>
+        <p>How did you hear about us?
+        <select name="option web" >
+        <option value="safari">safari</option>
+        <option value="google">google</option>
+        <option value="firefox">firefox</option>
+        <option value="Microsoft edge">Microsoft edge</option>
+        <option value="Opera">Opera</option>
+        <option value="Coc Coc">Coc Coc</option>
+        <option value="Browser">Browser</option>
+        <option value="Internet explorer">Internet explorer</option>
+        </select>
+        </p>
+        <p>Would you visit again?
+            <br>
+        <input type="radio" name="option question" value="Yes" checked="checked"> Yes
+        <input type="radio" name="option question" value="No"> No
+        <input type="radio" name="option question" value="Maybe"> Maybe
+        </p>
+        <p>Comments:
+            <br>
+        <textarea name="comments" cols="40" rows="5"></textarea>
+        </p>
+        <input type="checkbox" name="checkbox" value="Sign me up for email updates" checked="checked"> Sign me up for email updates
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Chấm điểm:</legend>
+        <form action="https://mail.google.com/mail/u/4/#inbox">
+        <p>Họ và tên: Nguyễn Mạnh Hiếu</p>
+        <p>Điểm:
+            <input type="text" name="chamdiem" size="5" maxlength="5">
+            <br>
+        </p>
+            <input type="submit" name="submit" value="Gửi Điểm">
+        </form>
+
+    </fieldset>
+</body>
+</html>
